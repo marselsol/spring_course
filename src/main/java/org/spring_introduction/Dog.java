@@ -6,6 +6,6 @@ public class Dog implements Pet {
     }
 
     public void say() {
-        System.out.println("bow-Wow");
+        System.out.println("Bow-Wow");
     }
 }
