@@ -30,7 +30,7 @@ public class TestYa1 {
             String [] array = stringAiBi.split(" ");
             double ai = Double.parseDouble(array[0]);
             double bi = Double.parseDouble(array[1]);
-            System.out.println(ai*bi/sum);
+            System.out.printf("%.12f\n", ai*bi/sum);
         }
     }
 }
